@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*,*::after,*:hover{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* body{
+  overflow:auto;
+  overflow-x:hidden;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#button_group{
+  width: 26%;
+}
+#button_group button{
+  background-color: rgb(238, 216, 89);
+  color: #fff;
+  transition: 0.60s ease-in-out;
+}
+#button_group button svg{
+  color: dodgerblue;
+}
+#button_group button:hover{
+  color: rgb(238, 216, 89);
+  transition: 0.60s ease-in-out;
+  background-color: #fff;
+  
+}
+.nigeria{
+  height: 100%;
+  align-items: flex-end;
+}
+#search_container{
+  width:30%
+}
+
+@media (max-width:1070px) {
+  #nav_container{
+    padding:  0 0;
+  }
+  
+}
+@media (max-width:818px) and (min-width:633px) {
+  #button_group{
+    width: 40%;
+  }
+  
+  #search_container{
+   width: 30%;
+  }
+}
+@media (max-width:634px) and (min-width:495px) {
+  #button_group{
+    width: 50%;
+  }
+  
+  #search_container{
+    display: none;
+    width: 0%;
+    visibility: collapse ;
+  }
+}
+@media (max-width:494px) and (min-width:439px) {
+  #button_group{
+    width: 56%;
+  }
+  
+  #search_container{
+    display: none;
+    width: 0%;
+    visibility: collapse ;
+  }
+}
+@media (max-width:438px) and (min-width:411px) {
+  #button_group{
+    width: 60%;
+    justify-content: space-between;
+  }
+  
+  #search_container{
+    display: none;
+    width: 0%;
+    visibility: collapse ;
+  }
+}
+@media (max-width:410px) and (min-width:359px) {
+  #button_group{
+    width: 70%;
+    justify-content: space-between;
+  }
+  
+  #search_container{
+    display: none;
+    width: 0%;
+    visibility: collapse ;
+     
+  }
+}
+@media (max-width:358px) and (min-width:1px) {
+  #button_group{
+    width: 80%;
+    justify-content: space-between;
+  }
+  
+  #search_container{
+    display: none;
+    width: 0%;
+    visibility: collapse ;
+  }
+}
+.main_slider .slider_card2{
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+  box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47) ;
+
+}
