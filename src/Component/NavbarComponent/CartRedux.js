@@ -3,7 +3,7 @@ import axios from "axios";
 import { useSelector } from "react-redux";
 import{SetCookies,GetCookies,RemovCookies} from "./Cookies/Cookies"
 import { SelectCurrentUser } from "../RegisterPagesForUsers/UserRedux";
-const Cart_URL = "https://daruzecommerce.herokuapp.com/user/"
+const Cart_URL = "https://e-comerce-node.vercel.app/user/"
 
 const initialState = {
     store: undefined,
