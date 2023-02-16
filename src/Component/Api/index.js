@@ -1,4 +1,4 @@
-export const host ="https://daruzecommerce.herokuapp.com";
+export const host ="https://e-comerce-node.vercel.app";
 export const userRoute=`${host}/user`;
 export const adminRoute=`${host}/admin`;
 export const siginUp =`${userRoute}/signUp`

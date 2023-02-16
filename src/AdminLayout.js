@@ -15,7 +15,7 @@ const AdminLayout = () => {
   const [UserData,setUserData]=useState(false)
   const dispatch=useDispatch();
   const token=localStorage.token;
- const Url="https://daruzecommerce.herokuapp.com/admin/getdashboard"
+ const Url="https://e-comerce-node.vercel.app/admin/getdashboard"
   const Location= useLocation();
   const fetchDashboard= async ()=>{
     try{

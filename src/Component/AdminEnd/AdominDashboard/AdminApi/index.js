@@ -1,5 +1,5 @@
 
-export const host ="https://daruzecommerce.herokuapp.com/";
+export const host ="https://e-comerce-node.vercel.app";
 export const PostGood=`${host}/admin/postgoods`
 export const Getdashboard=`${host}/admin/getdashboard`
 export const GetProducts=`${host}/admin/getproduct`
