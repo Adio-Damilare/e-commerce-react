@@ -16,7 +16,7 @@ const UserLayout = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const token = localStorage.usertoken;
-  const Url = "https://daruzecommerce.herokuapp.com/user/getdashboard"
+  const Url = "https://e-comerce-node.vercel.app/user/getdashboard"
   const Location = useLocation();
   let direction = JSON.parse(localStorage.getItem("logindirection"));
   const fetchDashboard = async () => {
