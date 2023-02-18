@@ -9,6 +9,10 @@ const HomeContainer = ({products}) => {
   const displayGoods=products.slice(GoodSViews,GoodSViews+GoodsPerPage)
   const pageCount=Math.ceil(products.length/GoodsPerPage);
   const changePage=({selected})=>{
+    window.scrollTo({
+      top:20,
+      behavior:"smooth"
+  })
     setpageNumber(selected)
   }
   return (
